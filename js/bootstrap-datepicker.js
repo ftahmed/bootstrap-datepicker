@@ -768,7 +768,7 @@
 
 		keydown: function(e){
 			if (this.picker.is(':not(:visible)')){
-				if (e.keyCode == 27) // allow escape to hide and re-show picker
+				if (e.keyCode == 191) // allow / or ? to show picker
 					this.show();
 				return;
 			}
